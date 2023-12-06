@@ -6,7 +6,7 @@ import ("fmt"
 func main() {
 
     http.HandleFunc("/", func(w http.ResponseWriter, r *http.Request){
-	n, err:= fmt.Fprintf(w,"Hello Yangzhou")
+	n, err:= fmt.Fprintf(w,"Hello Golang")
 	if err!=nil {
      fmt.Println(err)
 	}
